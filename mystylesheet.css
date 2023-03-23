@@ -1,0 +1,402 @@
+
+
+section {
+    padding: 60px 0;
+    /*background-color: #f7f1ef;*/
+  }
+  /*
+  .section-bg {
+    background-color: #f1f1f1;
+  }
+  */
+  .section-heading {
+    text-align:  center;
+    padding-bottom: 30px;
+  }
+  .section-heading h2 {
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+
+
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #9138ea;
+  }
+  .section-heading p {
+    margin-bottom: 0;
+  }
+
+
+
+/* ------------------------------------------------------------------------- */
+.navbar-brand{
+
+    font-size:xx-large;
+}
+.navbar-nav{
+    font-size: x-large;
+}
+/* ------------------------------------------------------------------------- */
+#landerpage{
+    height: 80vh;
+    background-size: cover;
+    background-image: url("E:/shopwebsite/assets/images/pexels-pixabay-163100.jpg");
+    
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.lantext{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    color: azure;
+    bottom:0;
+    left:0;
+    text-align: left;
+    padding: 30px;
+    
+}
+
+/* ----------------------------------------------------------------------- */
+
+.latest-products{
+  margin-top: 20px;
+}
+
+.latest-products .section-heading a{
+  float: right;
+  color: red;
+  margin-top: -35px;
+  text-transform: uppercase;
+  text-decoration: none;
+ 
+}
+
+
+
+
+/*-------------------------------------------------------------------------*/
+
+
+
+
+/* main events */
+
+.main-events {
+	margin-top: 140px;
+}
+
+.main-events-item img {
+	width: 100%;
+	overflow: hidden;
+
+  height: 250px;
+  object-fit:cover;
+}
+
+.main-events-item .mei-info {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+.main-events-item .mei-info h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+
+.main-events-item .mei-info p {
+	margin-bottom: 20px;
+}
+
+
+/*------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+
+
+
+
+/* Services */
+
+
+/*------------------------------------------------------------*/
+
+
+/*sub serviees  */
+
+
+.sub-services {
+	margin-top: 140px;
+}
+.sub-services-box{
+  margin-bottom: 20px;
+}
+
+.sub-services-box img {
+	width: 100%;
+  height: 200px;
+	overflow: hidden;
+  object-fit: cover;
+  
+}
+
+.sub-services-box .sub-services-info {
+	background-color: #ebe4e4;
+	padding: 30px;
+}
+
+.sub-services-box .sub-services-info h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+
+.sub-services-box .sub-services-info p {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+.pwp { margin: 0 auto 30px; }
+
+.pwp {
+	max-width: 254px;
+	width: 100%;
+
+}
+.pwp-info h3 {
+	font-size: 18px;
+  font-weight: 600;
+	text-transform: uppercase;
+  padding-top: 5px;
+	padding-bottom: 10px;
+	/* border-bottom: 1px solid #b1b1b1; */
+}
+
+.pwp img{
+  width: 254px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pwp-info {
+    padding: 15px;
+    border-left: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
+}
+.pwp-link {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	background-color: #8C8C8C;
+	color: white;
+	text-transform: uppercase;
+	transition: all 0.2s ease;
+}
+.pwp-link:hover,
+.pwp-link:focus {
+	color: white;
+	background-color: #06bc09;
+}
+
+.margin-bottom-15 { margin-bottom: 15px; }
+.margin-bottom-5 { margin-bottom: 5px; }
+
+
+@media screen and (max-width: 991px) {
+.tm-tours-box-2 { margin: 0 auto 30px; }
+}
+
+
+
+
+
+
+
+
+
+/*   -------------------from shopweb----------------------*/
+
+#footer {
+    background: #111111;
+    padding: 0 0 15px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  #footer .footer-top {
+    background: #1d1d1d;
+    border-bottom: 0.5px solid #2f2f2f;
+    padding: 30px 0 15px 0;
+  }
+
+  #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+  #footer .footer-top .footer-info h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+  #footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+  }
+  /*
+  #footer .footer-top .footer-links a {
+    font-size: 18px;
+    display: inline-block; 
+    background: #2a2a2a;
+    color: rgb(150, 82, 82);
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%; 
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+*/
+#footer .footer-top .footer-links a {
+    font-size: 18px;
+    display: inline-block; 
+    color: antiquewhite;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    text-align: center;
+    transition: 0.4s;
+    text-decoration: none;
+    
+
+}
+
+  #footer .footer-top .footer-links a:hover {
+    /* background: #5c9f24; */
+    color: #81d33d;
+    text-decoration: none;
+  }
+
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+  }
+
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+
+
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+
+  #footer .footer-top .footer-links ul li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  #footer .copyright {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+
+
+
+
+
+
+
+
+
+/*------------from financepage*/
+  footer ul.social-icons {
+	margin-top: 25px;
+}
+
+footer ul.social-icons li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+footer ul.social-icons li:last-child {
+	margin-right: 0px;
+}
+
+footer ul.social-icons li a {
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	line-height: 34px;
+	text-align: center;
+	background-color: #fff;
+	color: #232323;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+
+footer ul.social-icons li a:hover {
+	background-color: #a4c639;
+}
+
+
+
+
+
+
+
+
+
+
